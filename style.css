@@ -1,0 +1,39 @@
+.navbar-brand {
+  margin-right: 500px;
+}
+
+.buy-pc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hero {
+  margin-bottom: 90px;
+}
+
+.card-img-top {
+  height: 420px;
+}
+
+.footer {
+  background-color: #2f303a;
+  width: auto;
+  height: 400px;
+}
+
+.footer-tytle {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.footer-item {
+  color: #ffffff;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

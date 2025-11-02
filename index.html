@@ -10,137 +10,716 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
   </head>
   <body>
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Terraria</a>
+          <a class="navbar-brand" href="#">Світ-пк</a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Підтримайте копійочкою Світ-пк
               </button>
-            </form>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Привіт це Світ-пк
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      дуже просимо підтримати нас сайт бо ми тільки розпочали
+                      продавати комп'ютери
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Підтримати
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
-            >
-              Про що террарія?
-            </button>
-          </h2>
-          <div
-            id="flush-collapseOne"
-            class="accordion-collapse collapse"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="accordion-body">
-              інді-відеогра розроблена студією Re-Logic. Сенс гри полягає у
-              дослідженні світу, виготовленні предметів, будівництві та битві з
-              чудернацькими істотами (зокрема й босами) у випадково створеному
-              2D-світі. Гра вийшла 16 травня 2011 року.
+      <section class="hero">
+        <img src="./image/pro-pc.webp" class="img-fluid" alt="Pc-world" />
+      </section>
+      <section class="buy-pc">
+        <ul class="buy-pc-list">
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img src="./image/pro-pc1.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">34 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер COBRA Advanced (A56.32.S10.46.19907) / AMD Ryzen 5
+                  5600 / RAM 32ГБ / SSD 1ТБ / nVidia GeForce RTX 4060
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo"
-              aria-expanded="false"
-              aria-controls="flush-collapseTwo"
-            >
-              Terraria
-            </button>
-          </h2>
-          <div
-            id="flush-collapseTwo"
-            class="accordion-collapse collapse"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="accordion-body">
-              Почніть із будівництва основного укриття, потім вирушайте на
-              пошуки руди та інших ресурсів. Досліджуйте та створюйте понад 500
-              видів магічної зброї, зброї дальнього та ближнього бою, та зброї
-              призову, а також обладунки та використовуйте їх для битв із
-              сотнями різноманітних ворогів. Незабаром ви зіткнетеся віч-на-віч
-              з одним з дюжини величезних босів. Рибачте, катайтеся верхи,
-              знаходьте Ширяючі Острови, будуйте будинки для корисних НІПів і
-              багато, багато іншого.
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc2.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">37 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер ARTLINE Gaming X47 (X47v93) -- AMD Ryzen 5 5600X /
+                  RAM 32 ГБ / SSD 1 ТБ / nVidia GeForce RTX 5060, 8 ГБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="https://gamemag.ru/images/imagemanager/cache/d3/ce91/d3ce91_0.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc3.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">34 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер COBRA Gaming (I124F.32.S5.56.20178) -- Intel Core
+                  i5-12400F / RAM 32 ГБ / SSD 500 ГБ / GeForce RTX 5060, 8 ГБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc4.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">52 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер ARTLINE Gaming X47WHITE (X47WHITEv64) AMD Ryzen 5
+                  7500F/ B650M / 32Gb DDR5-5200 Gaming/SSD 1TB
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/middle-pc1.webp"
+                class="card-img-top"
+                alt="middle-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">29 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер COBRA Advanced (A55.16.H1S4.36.16983) AMD Ryzen 5
+                  5500 / DDR4 16ГБ / HDD 1ТБ + SSD 480ГБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/middle-pc2.webp"
+                class="card-img-top"
+                alt="middle-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">26 880₴</h5>
+                <p class="card-text">
+                  Комп'ютер ARTLINE Gaming X37 v38 (X37v38) Intel Core i5-10400F
+                  / RAM 16ГБ / SSD 480ГБ / nVidia GeForce RTX 3050 8ГБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/middle-pc3.webp"
+                class="card-img-top"
+                alt="middle-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">26 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер 1stPlayer Ryzen 7 5700 / RX 570 8ГБ / 32ГБ DDR4 /
+                  SSD 1TБ M.2 PCIe / nVidia GeForce RTX 3050 8ГБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/middle-pc4.webp"
+                class="card-img-top"
+                alt="midle-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">14 855₴</h5>
+                <p class="card-text">
+                  Комп'ютер DTOP Gaming i85M SSD RGB
+                  (i5-4590/RX580/32Gb/ssd120+HDD500)
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc5.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">47 649₴</h5>
+                <p class="card-text">
+                  Комп'ютер Vinga Wolverine D8893 (I5M32G5060TI8G.D8893) /
+                  nVidia GeForce RTX 5050, 8 ГБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc6.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">154 855₴</h5>
+                <p class="card-text">
+                  Комп'ютер HP OMEN 40L Desktop GT21-2002ua (B22CVEA) + Моноблок
+                  ARTLINE Home G41v29
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc7.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">247 968₴</h5>
+                <p class="card-text">
+                  Комп'ютер ARTLINE Gaming X98 (X98v89) + Моноблок ARTLINE Home
+                  G41v29
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="buy-pc-item">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./image/pro-pc8.webp"
+                class="card-img-top"
+                alt="pro-pc"
+              />
+              <div class="card-body">
+                <h5 class="card-title">32 999₴</h5>
+                <p class="card-text">
+                  Комп'ютер ARTLINE Gaming X39 (X39v81) Intel Core i5-12400F/
+                  RAM 16ГБ / SSD 1ТБ
+                </p>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Купити
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                          Дякую за покупку
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <h3 class="footer-tytle">Дякую спонсорам</h3>
+        <ul class="footer-list">
+          <li class="footer-item">Ольга Ткацька</li>
+          <li class="footer-item">Микола Побережний</li>
+          <li class="footer-item">Віктор Філонин</li>
+          <li class="footer-item">Василь Шелестюк</li>
+          <li class="footer-item">Тетяна Калина</li>
+          <li class="footer-item">Марина Коваленко</li>
+        </ul>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
